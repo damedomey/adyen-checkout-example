@@ -3,7 +3,7 @@ rootProject.name = 'adyen-java-spring-online-payments-checkout'
 dependencyResolutionManagement {
     versionCatalogs {
         libs {
-            from(files("../gradle/libs.versions.toml"))
+            from(files("gradle/libs.versions.toml"))
         }
     }
 }
