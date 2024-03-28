@@ -6,6 +6,7 @@ tasks:
       sdk install java 17.0.4.1-tem < /dev/null
 
       echo "Build gradle for '$path' ..."
+      chmod +x gradlew*
       ./gradlew bootJar
 
     command: |
