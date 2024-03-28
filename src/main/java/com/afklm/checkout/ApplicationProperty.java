@@ -1,4 +1,4 @@
-package com.adyen.checkout;
+package com.afklm.checkout;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

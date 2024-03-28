@@ -1,7 +1,7 @@
-package com.adyen.checkout.api;
+package com.afklm.checkout.api;
 
 import com.adyen.Client;
-import com.adyen.checkout.ApplicationProperty;
+import com.afklm.checkout.ApplicationProperty;
 import com.adyen.enums.Environment;
 import com.adyen.model.checkout.Amount;
 import com.adyen.model.checkout.CreateCheckoutSessionRequest;

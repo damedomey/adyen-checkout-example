@@ -1,4 +1,4 @@
-package com.adyen.checkout;
+package com.afklm.checkout;
 
 import org.springframework.context.annotation.Bean;
 

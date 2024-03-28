@@ -1,4 +1,4 @@
-package com.adyen.checkout;
+package com.afklm.checkout;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

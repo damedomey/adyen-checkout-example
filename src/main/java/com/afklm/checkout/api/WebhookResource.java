@@ -1,6 +1,6 @@
-package com.adyen.checkout.api;
+package com.afklm.checkout.api;
 
-import com.adyen.checkout.ApplicationProperty;
+import com.afklm.checkout.ApplicationProperty;
 import com.adyen.model.notification.NotificationRequest;
 import com.adyen.model.notification.NotificationRequestItem;
 import com.adyen.util.HMACValidator;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.IOException;
 import java.security.SignatureException;
 
 /**
