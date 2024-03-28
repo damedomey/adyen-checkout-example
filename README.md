@@ -2,19 +2,7 @@
 
 ## Run demo in one-click
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adyen-examples/adyen-java-spring-online-payments/tree/main/checkout-example)  
-&nbsp;[First time with Gitpod?](https://github.com/adyen-examples/.github/blob/main/pages/gitpod-get-started.md)
-
-# Description
-
-This repository showcases a PCI-compliant integration of the **Sessions Flow**, the default integration that we recommend for merchants. Explore this simplified e-commerce demo to discover the code, libraries and configuration you need to enable various payment options in your checkout experience.  
-
-It includes a **Java + Spring Boot + Thymeleaf** application that supports [Adyen Drop-in and Components](https://docs.adyen.com/online-payments/build-your-integration) 
-(ACH, Alipay, Cards, Dotpay, iDEAL, Klarna, PayPal, etc..) using the Adyen's API Library for Java ([GitHub](https://github.com/Adyen/adyen-java-api-library)).   
-
-      
-> **Note:**
-For a three-steps [advanced use case](https://docs.adyen.com/online-payments/build-your-integration/additional-use-cases/) check out the **Advanced Flow** demo in the [`checkout-example-advanced`](../checkout-example-advanced) folder.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/damedomey/adyen-checkout-example)  
 
 ![Card checkout demo](src/main/resources/static/images/cardcheckout.gif)
 
@@ -28,7 +16,7 @@ For a three-steps [advanced use case](https://docs.adyen.com/online-payments/bui
 ## 1. Installation
 
 ```
-git clone https://github.com/adyen-examples/adyen-java-spring-online-payments.git
+git clone https://github.com/damedomey/adyen-checkout-example.git
 ```
 
 ## 2. Set the environment variables
@@ -62,8 +50,6 @@ In the Customer Area add `http://localhost:8080` in the list of Allowed Origins 
 ## 4. Run the application
 
 ```
-cd checkout-example
-    
 ./gradlew bootRun
 ```
 
